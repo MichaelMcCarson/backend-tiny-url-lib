@@ -1,0 +1,22 @@
+{
+  "name": "api-util-tiny-url",
+  "version": "1.0.0",
+  "description": "Creates tiny urls.",
+  "private": true,
+  "main": "./index.ts",
+  "module": "./dist/esm/index.js",
+  "exports": {
+    ".": {
+      "browser": "./index.ts",
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js",
+      "types": "./index.ts",
+      "default": "./index.ts"
+    }
+  },
+  "sideEffects": false,
+  "devDependencies": {
+    "tslib": "^1.13.0",
+    "typeorm": "^0.3.17"
+  }
+}
